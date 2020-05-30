@@ -4,6 +4,7 @@
 @import url(./__background/cover__background.css);
 .cover {
   min-height: 740px;
+  object-fit: cover;
   position: relative;
   background: url(./../../images/__background.jpg) 50% 50% no-repeat;
 }
@@ -22,6 +23,5 @@
 @media screen and (max-width: 320px) {
   .cover {
     min-height: 200px;
-    background-size: 100%;
 }
 }
