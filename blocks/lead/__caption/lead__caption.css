@@ -1,0 +1,21 @@
+.lead__caption {
+    width: 159px;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1.4;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 8px;
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .lead__caption {
+}
+}
+
+@media screen and (max-width: 425px) {
+    .lead__caption {
+      margin-left: 16px;
+}
+}

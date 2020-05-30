@@ -1,0 +1,25 @@
+.cover__overlay {
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cover__overlay:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.cover__overlay::before {
+    text-decoration: none;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0,0,0,0.3);
