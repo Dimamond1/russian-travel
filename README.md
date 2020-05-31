@@ -5,6 +5,6 @@
 
 ### В нем используются технолигии HTML, CSS. Для запуска проекта нужен браузер поддерживающий HTML 5, CSS, flex, grid
 
-
+ссылка на проект https://dimamond1.github.io/russian-travel/
 
 
