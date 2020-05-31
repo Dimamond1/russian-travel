@@ -25,3 +25,11 @@
         grid-gap: 48px 28px;
     }
 }
+@media screen and (max-width: 720px) {
+    .place {
+    grid-template-columns: auto;
+}
+@media screen and (max-width: 450px) {
+.place:first-of-type {
+    padding-top: 56px;
+}
