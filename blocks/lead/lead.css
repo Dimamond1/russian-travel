@@ -3,6 +3,7 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__title/lead__title.css);
 .lead {
+    font-family: "inter", Arial, Helvetica, sans-serif;
     max-width: 984px;
     margin: 0 auto;
     padding-top: 56px;
