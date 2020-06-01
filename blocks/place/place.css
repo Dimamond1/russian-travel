@@ -8,22 +8,30 @@
 .place {
     font-family: "inter", Arial, Helvetica, sans-serif;
     padding-top: 0;
-    padding-bottom: 92px;
+    padding-bottom: 80px;
     display: grid;
     grid-template-columns: 460px auto;
     grid-gap: 48px 40px;
+}
+.place:last-of-type {
+    padding-bottom: 92px;
 }
 @media screen and  (max-width: 1024px) {
     .place {
         grid-template-columns: 440px auto;
         grid-gap: 48px 32px;
+        padding-bottom: 84px;
     }
 }
 @media screen and  (max-width: 768px) {
     .place {
         grid-template-columns: 340px auto;
         grid-gap: 48px 28px;
+        padding-bottom: 48px;
     }
+.place:last-of-type {
+        padding-bottom: 64px;
+}
 }
 @media screen and (max-width: 720px) {
     .place {
