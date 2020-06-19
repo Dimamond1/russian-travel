@@ -1,3 +1,5 @@
+@import url(./__list-links/footer__list-links.css);
+@import url(./__list-link/footer__list-link.css);
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
 @import url(./__copyright/footer__copyright.css);
@@ -17,7 +19,7 @@
       margin: 0 24px;
 }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 570px) {
 .footer {
     padding-top: 64px;
     margin: 0 16px;

@@ -5,6 +5,7 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
 @import url(./__paragraphs/place__paragraphs.css);
+
 .place {
     font-family: "inter", Arial, Helvetica, sans-serif;
     padding-top: 0;
@@ -13,9 +14,11 @@
     grid-template-columns: 460px auto;
     grid-gap: 48px 40px;
 }
+
 .place:last-of-type {
     padding-bottom: 92px;
 }
+
 @media screen and  (max-width: 1024px) {
     .place {
         grid-template-columns: 440px auto;
@@ -23,6 +26,7 @@
         padding-bottom: 84px;
     }
 }
+
 @media screen and  (max-width: 768px) {
     .place {
         grid-template-columns: 340px auto;
@@ -33,10 +37,13 @@
         padding-bottom: 64px;
 }
 }
+
 @media screen and (max-width: 720px) {
     .place {
     grid-template-columns: auto;
 }
+}
+
 @media screen and (max-width: 450px) {
 .place {
     padding-top: 48px;

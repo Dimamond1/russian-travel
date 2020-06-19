@@ -2,20 +2,21 @@
     margin: 0;
     max-width: 460px;
     color: #FFFFFF;
-    font-family: "inter";
+    font-family: "inter", Arial, Helvetica, sans-serif;
     font-size: 72px;
     font-weight: 900;
     line-height: 1.06;
     align-self: end;
     transform: translateY(12px);
 }
-}
+
 @media screen and  (max-width: 1024px) {
     .place__title {
         max-width: 440px;
 
     }
 }
+
 @media screen and  (max-width: 768px) {
     .place__title {
         max-width: 340px;
@@ -24,6 +25,7 @@
         line-height: 1.1;
     }
 }
+
 @media screen and (max-width: 425px) {
     .place__title {
         max-width: 288px;
